@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNamaTempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama tempat"
+        android:textSize="16dp"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/txtjarak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12 km"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>
+
